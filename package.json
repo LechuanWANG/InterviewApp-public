@@ -1,0 +1,43 @@
+{
+  "name": "interview-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:next": "next dev",
+    "dev:asr": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/local-asr-stream-server.mjs",
+    "build": "next build",
+    "cf:build": "opennextjs-cloudflare build",
+    "cf:preview": "opennextjs-cloudflare preview",
+    "cf:deploy": "opennextjs-cloudflare deploy",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "rm -rf .test-build && tsc -p tsconfig.test.json && node --test .test-build/tests/*.test.js",
+    "backfill:consult-memory": "tsc -p tsconfig.scripts.json && node .script-runtime/scripts/backfill-consult-memory-items.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "@langchain/langgraph": "^1.2.9",
+    "@supabase/supabase-js": "^2.105.1",
+    "next": "^14.2.35",
+    "openai": "^4.73.0",
+    "pdf-parse": "^1.1.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "undici": "^8.1.0",
+    "ws": "^8.20.1"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20260524.1",
+    "@opennextjs/cloudflare": "^1.14.10",
+    "@types/node": "^20",
+    "@types/pdf-parse": "^1.1.4",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.6.3",
+    "wrangler": "^4.94.0"
+  }
+}

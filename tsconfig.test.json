@@ -1,0 +1,25 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "noEmit": false,
+    "outDir": ".test-build",
+    "rootDir": ".",
+    "types": ["node"]
+  },
+  "include": [
+    "tests/**/*.ts",
+    "lib/llm/chatCompletion.ts",
+    "lib/prompts/annotateAnswersCore.ts",
+    "lib/interview/answerIntegrity.ts",
+    "lib/interview/endDetection.ts",
+    "lib/consultation/memory.ts",
+    "lib/consultation/memoryItems.ts",
+    "lib/consultation/types.ts",
+    "lib/historyStore.ts",
+    "lib/types.ts",
+    "lib/personas.ts"
+  ],
+  "exclude": ["node_modules", ".next", ".test-build"]
+}

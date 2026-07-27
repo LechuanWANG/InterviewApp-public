@@ -1,0 +1,19 @@
+node_modules
+.next
+.open-next
+.wrangler
+# Local environment files can contain credentials.
+.env*
+!.env.example
+.DS_Store
+**/.DS_Store
+*.log
+.test-build
+.script-runtime
+data/*.json
+*.tsbuildinfo
+.Rhistory
+reference/
+
+# Local Claude Code settings (per-machine, not shared)
+.claude/settings.local.json
