@@ -9,6 +9,7 @@
 | 应用 | <https://www.daimian.top/> |
 | 介绍页 | <https://panos-pang.github.io/InterviewAgent-materials/> |
 | 介绍视频 | <https://www.xiaohongshu.com/explore/6a2fc0fc000000001c0254c8?xsec_token=ABcxz0rBZP5BUzmL9LfWm3oEgfkw3zgCFo6q6aae73Zwo=&xsec_source=pc_user> |
+| 中文 Demo | <https://www.xiaohongshu.com/explore/69fd87680000000036019fa4?xsec_token=AB_PWafz9yooHkS2a3euJG_jyNXcv075z8bzIxuNJ_yK0=&xsec_source=pc_user> |
 | 英文 Demo | <https://www.linkedin.com/feed/update/urn:li:activity:7464902667304218627/> |
 
 ## 产品亮点
